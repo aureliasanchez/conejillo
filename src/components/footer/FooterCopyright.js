@@ -17,9 +17,9 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          Conejillo
         </a>
-        .<br /> All Rights Reserved
+        .<br />Todos los derechos Reservados.
       </p>
     </div>
   );

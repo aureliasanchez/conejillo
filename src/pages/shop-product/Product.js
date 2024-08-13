@@ -18,7 +18,7 @@ const Product = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Product Page"
+        titleTemplate="Producto"
         description="Product Page of flone react minimalist eCommerce template."
       />
 
@@ -26,8 +26,8 @@ const Product = () => {
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Shop Product", path: process.env.PUBLIC_URL + pathname }
+            {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+            {label: "Producto", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
 

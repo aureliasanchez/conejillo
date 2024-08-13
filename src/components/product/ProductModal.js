@@ -218,7 +218,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Buy Now
+                    Comprar ahora
                   </a>
                 </div>
               </div>
@@ -268,10 +268,10 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                       disabled={productCartQty >= productStock}
                     >
                       {" "}
-                      Add To Cart{" "}
+                      Añadir al carrito{" "}
                     </button>
                   ) : (
-                    <button disabled>Out of Stock</button>
+                    <button disabled>Agotado</button>
                   )}
                 </div>
                 <div className="pro-details-wishlist">

@@ -80,7 +80,7 @@ const ProductImageGallery = ({ product }) => {
         ) : null}
 
       </div>
-      <div className="product-small-image-wrapper mt-15">
+      {/* <div className="product-small-image-wrapper mt-15">
         {product?.image?.length ? (
           <Swiper options={thumbnailSwiperParams}>
             {product.image.map((single, key) => (
@@ -96,7 +96,7 @@ const ProductImageGallery = ({ product }) => {
             ))}
           </Swiper>
         ) : null}
-      </div>
+      </div> */}
     </Fragment>
   );
 };

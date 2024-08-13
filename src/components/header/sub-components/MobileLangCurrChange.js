@@ -26,32 +26,6 @@ const MobileLangCurrChange = () => {
     offcanvasMobileMenu.classList.remove("active");
   };
 
-  return (
-    <div className="mobile-menu-middle">
-      <div className="lang-curr-style">
-        <span className="title mb-2">Choose Language </span>
-        <select
-          value={i18n.resolvedLanguage}
-          onChange={changeLanguageTrigger}
-        >
-          <option value="en">English</option>
-          <option value="fn">French</option>
-          <option value="de">Germany</option>
-        </select>
-      </div>
-      <div className="lang-curr-style">
-        <span className="title mb-2">Choose Currency</span>
-        <select
-          value={currency.currencyName}
-          onChange={setCurrencyTrigger}
-        >
-          <option value="USD">USD</option>
-          <option value="EUR">EUR</option>
-          <option value="GBP">GBP</option>
-        </select>
-      </div>
-    </div>
-  );
 };
 
 export default MobileLangCurrChange;

@@ -50,16 +50,16 @@ const ShopGridStandard = () => {
     return (
         <Fragment>
             <SEO
-                titleTemplate="Shop Page"
-                description="Shop page of flone react minimalist eCommerce template."
+                titleTemplate="Catálogo"
+                description="Página de la tienda de la plantilla de comercio electrónico minimalista Flone React."
             />
 
             <LayoutOne headerTop="visible">
                 {/* breadcrumb */}
                 <Breadcrumb 
                     pages={[
-                        {label: "Home", path: process.env.PUBLIC_URL + "/" },
-                        {label: "Shop", path: process.env.PUBLIC_URL + pathname }
+                        {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+                        {label: "Catálogo", path: process.env.PUBLIC_URL + pathname }
                     ]} 
                 />
 

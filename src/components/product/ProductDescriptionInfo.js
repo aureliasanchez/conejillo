@@ -142,7 +142,7 @@ const ProductDescriptionInfo = ({
               rel="noopener noreferrer"
               target="_blank"
             >
-              Buy Now
+             Comprar ahora
             </a>
           </div>
         </div>
@@ -190,10 +190,10 @@ const ProductDescriptionInfo = ({
                 disabled={productCartQty >= productStock}
               >
                 {" "}
-                Add To Cart{" "}
+                Añadir al carrito{" "}
               </button>
             ) : (
-              <button disabled>Out of Stock</button>
+              <button disabled>Agotado</button>
             )}
           </div>
           <div className="pro-details-wishlist">
@@ -228,7 +228,7 @@ const ProductDescriptionInfo = ({
       )}
       {product.category ? (
         <div className="pro-details-meta">
-          <span>Categories :</span>
+          <span>Categorías :</span>
           <ul>
             {product.category.map((single, key) => {
               return (
@@ -244,7 +244,7 @@ const ProductDescriptionInfo = ({
       ) : (
         ""
       )}
-      {product.tag ? (
+      {/* {product.tag ? (
         <div className="pro-details-meta">
           <span>Tags :</span>
           <ul>
@@ -261,7 +261,7 @@ const ProductDescriptionInfo = ({
         </div>
       ) : (
         ""
-      )}
+      )} */}
 
       <div className="pro-details-social">
         <ul>
@@ -270,7 +270,7 @@ const ProductDescriptionInfo = ({
               <i className="fa fa-facebook" />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="//dribbble.com">
               <i className="fa fa-dribbble" />
             </a>
@@ -284,10 +284,10 @@ const ProductDescriptionInfo = ({
             <a href="//twitter.com">
               <i className="fa fa-twitter" />
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="//linkedin.com">
-              <i className="fa fa-linkedin" />
+            <a href="//instagram.com">
+              <i className="fa fa-instagram" />
             </a>
           </li>
         </ul>

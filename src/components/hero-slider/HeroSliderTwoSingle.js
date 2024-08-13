@@ -15,7 +15,7 @@ const HeroSliderTwoSingle = ({ data }) => {
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
-                  SHOP NOW
+                  COMPRAR AHORA
                 </Link>
               </div>
             </div>

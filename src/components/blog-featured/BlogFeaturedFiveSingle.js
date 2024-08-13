@@ -27,7 +27,7 @@ const BlogFeaturedFiveSingle = ({ singlePost }) => {
             </h3>
             <span>
               <Link to={process.env.PUBLIC_URL + singlePost.url}>
-                Read More
+                Leer más
               </Link>
             </span>
           </div>

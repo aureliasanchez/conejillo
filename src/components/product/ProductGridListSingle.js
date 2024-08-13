@@ -53,7 +53,7 @@ const ProductGridListSingle = ({
                 ) : (
                   ""
                 )}
-                {product.new ? <span className="purple">New</span> : ""}
+                {product.new ? <span className="purple">Nuevo</span> : ""}
               </div>
             ) : (
               ""
@@ -66,8 +66,8 @@ const ProductGridListSingle = ({
                   disabled={wishlistItem !== undefined}
                   title={
                     wishlistItem !== undefined
-                      ? "Added to wishlist"
-                      : "Add to wishlist"
+                      ? "Añadido a la lista de deseos"
+                      : "Añadir a la lista de deseos"
                   }
                   onClick={() => dispatch(addToWishlist(product))}
                 >
@@ -82,7 +82,7 @@ const ProductGridListSingle = ({
                     target="_blank"
                   >
                     {" "}
-                    Buy now{" "}
+                    Comprar ahora{" "}
                   </a>
                 ) : product.variation && product.variation.length >= 1 ? (
                   <Link to={`${process.env.PUBLIC_URL}/product/${product.id}`}>
@@ -98,18 +98,18 @@ const ProductGridListSingle = ({
                     }
                     disabled={cartItem !== undefined && cartItem.quantity > 0}
                     title={
-                      cartItem !== undefined ? "Added to cart" : "Add to cart"
+                      cartItem !== undefined ? "Añadido al carrito" : "Añadir al carrito"
                     }
                   >
                     {" "}
                     <i className="pe-7s-cart"></i>{" "}
                     {cartItem !== undefined && cartItem.quantity > 0
-                      ? "Added"
-                      : "Add to cart"}
+                      ? "Añadido"
+                      : "Añadir al carrito"}
                   </button>
                 ) : (
                   <button disabled className="active">
-                    Out of Stock
+                    Agotado
                   </button>
                 )}
               </div>
@@ -175,7 +175,7 @@ const ProductGridListSingle = ({
                       ) : (
                         ""
                       )}
-                      {product.new ? <span className="purple">New</span> : ""}
+                      {product.new ? <span className="purple">Nuevo</span> : ""}
                     </div>
                   ) : (
                     ""
@@ -228,13 +228,13 @@ const ProductGridListSingle = ({
                         target="_blank"
                       >
                         {" "}
-                        Buy now{" "}
+                        Comprar ahora{" "}
                       </a>
                     ) : product.variation && product.variation.length >= 1 ? (
                       <Link
                         to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                       >
-                        Select Option
+                        Seleccionar opción
                       </Link>
                     ) : product.stock && product.stock > 0 ? (
                       <button
@@ -261,7 +261,7 @@ const ProductGridListSingle = ({
                       </button>
                     ) : (
                       <button disabled className="active">
-                        Out of Stock
+                        Agotado
                       </button>
                     )}
                   </div>

@@ -22,9 +22,9 @@ SEO.propTypes = {
 }
 
 SEO.defaultProps = {
-    title: "Flone",
-    titleTemplate: "Product Page",
-    description: "Product page of flone react minimalist eCommerce template.",
+    title: "Conejillo",
+    titleTemplate: "Catálogo",
+    description: "Página del producto de la plantilla de comercio electrónico minimalista Flone React.",
 };
 
 export default SEO;

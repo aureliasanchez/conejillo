@@ -7,7 +7,7 @@ const ProductGridSixContainer = ({ spaceBottomClass }) => {
     <div className={clsx("product-grid-six-container", spaceBottomClass)}>
       <div className="container">
         <SectionTitleSix
-          sectionTitle="TOP RATED PRODUCTS"
+          sectionTitle="PRODUCTOS MEJOR CALIFICADOS"
           spaceBottomClass="mb-60"
         />
         <div className="row">

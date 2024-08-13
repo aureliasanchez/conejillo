@@ -52,7 +52,7 @@ const ProductGridSingle = ({
               ) : (
                 ""
               )}
-              {product.new ? <span className="purple">New</span> : ""}
+              {product.new ? <span className="purple">Nuevo</span> : ""}
             </div>
           ) : (
             ""
@@ -81,7 +81,7 @@ const ProductGridSingle = ({
                   target="_blank"
                 >
                   {" "}
-                  Buy now{" "}
+                  Comprar ahora{" "}
                 </a>
               ) : product.variation && product.variation.length >= 1 ? (
                 <Link to={`${process.env.PUBLIC_URL}/product/${product.id}`}>
@@ -97,18 +97,18 @@ const ProductGridSingle = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Añadido al carrito" : "Añadir al carrito"
                   }
                 >
                   {" "}
                   <i className="pe-7s-cart"></i>{" "}
                   {cartItem !== undefined && cartItem.quantity > 0
-                    ? "Added"
-                    : "Add to cart"}
+                    ? "Añadido"
+                    : "Añadir al carrito"}
                 </button>
               ) : (
                 <button disabled className="active">
-                  Out of Stock
+                  Agotado
                 </button>
               )}
             </div>
