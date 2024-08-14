@@ -21,7 +21,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
       <div className="same-language-currency language-style">
         <span>
           {i18n.resolvedLanguage === "en"
-            ? "English"
+            ? "Espanol"
             : i18n.resolvedLanguage === "fn"
             ? "French"
             : i18n.resolvedLanguage === "de"
