@@ -34,10 +34,10 @@
     "uuid": "^9.0.0",
     "yet-another-react-lightbox": "^2.2.0"
   },
-  "homepage": "https://aureliasanchez.github.io/conejillo",
+  "homepage": "https://aureliasanchez.github.io/conejillo/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",  
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

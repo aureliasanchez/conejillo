@@ -20,11 +20,9 @@ const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
                 />
               </Link>
               <div className="banner-content-4 banner-position-hm15-2 pink-banner">
-                <span>-20% Off</span>
-                <h2>New Tulip</h2>
-                <h5>Best for your Mind.</h5>
+                <h2>KITS</h2>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  SHOP NOW
+                    Comprar Ahora
                 </Link>
               </div>
             </div>
@@ -40,10 +38,7 @@ const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
                 />
               </Link>
               <div className="banner-content-3 banner-position-hm15-2 pink-banner">
-                <h3>Pink Tulip </h3>
-                <p>
-                  Starting At <span>$99.00</span>
-                </p>
+                <h3>Individuales</h3>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                   <i className="fa fa-long-arrow-right" />
                 </Link>
@@ -58,15 +53,6 @@ const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
                   alt=""
                 />
               </Link>
-              <div className="banner-content-3 banner-position-hm17-1 pink-banner">
-                <h3>Pink Tulip </h3>
-                <p>
-                  Starting At <span>$99.00</span>
-                </p>
-                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  <i className="fa fa-long-arrow-right" />
-                </Link>
-              </div>
             </div>
           </div>
         </div>

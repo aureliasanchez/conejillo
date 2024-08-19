@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "title": "New Arrivals",
-    "subtitle": "Fresh Your Mind & <br/> Feeling love",
-    "image": "/assets/img/slider/slider-10.jpg",
+    "title": "Conejillo del Campo",
+    "subtitle": "La cultura cannábica, no se lee se prueba",
+    "image": "/assets/img/slider/Granola Punch.webp",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "New Arrivals",
-    "subtitle": "Fresh Your Mind & <br/> Feeling love",
-    "image": "/assets/img/slider/slider-10-2.jpg",
+    "title": "Extraído de las tierras de Tapachula Chiapas",
+    "subtitle": "El café que te calma mientras te hace volar.",
+    "image": "/assets/img/slider/Granola Punch.webp",
     "url": "/shop-grid-standard"
   }
 ]
