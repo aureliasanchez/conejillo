@@ -12,5 +12,12 @@
     "subtitle": "El café que te calma mientras te hace volar.",
     "image": "/assets/img/slider/Mezcalma (1).webp",
     "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Sabor irresitible",
+    "subtitle": "Disfruta un sabor que hará cada bocado una experienca placentera.",
+    "image": "/assets/img/slider/Granola Punch.webp",
+    "url": "/shop-grid-standard"
   }
 ]

@@ -1,12 +1,18 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
+import SectionTitle from "../../components/section-title/SectionTitle";
 
 const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
-      className={clsx("banner-area", spaceTopClass, spaceBottomClass)}
-    >
+      className={clsx("banner-area", spaceTopClass, spaceBottomClass)}>
+       <SectionTitle
+          titleText="Encuentra tu Kit Perfecto y Más"
+          positionClass="text-center"
+          spaceClass="mb-50"
+        />
+    {/*Productos*/}
       <div className="container padding-20-row-col">
         <div className="row">
           <div className="col-lg-6 col-md-6">

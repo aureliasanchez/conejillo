@@ -1432,3 +1432,30 @@
     }
   }
 }
+
+.icon-info-section {
+  background-color: #ffffff;
+  padding: 20px 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.info-box {
+  text-align: center;
+  padding: 20px;
+}
+
+.info-box img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+
+.info-text h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.info-text p {
+  font-size: 14px;
+  color: #666;
+}

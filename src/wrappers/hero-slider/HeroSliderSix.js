@@ -16,7 +16,7 @@ const params = {
 };
 
 const HeroSliderSix = () => {
-  return (
+  return (    
     <div className="slider-area">
       <div className="slider-active nav-style-1">
         {sliderData && (

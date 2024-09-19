@@ -6,18 +6,49 @@ import BannerOneSingle from "../../components/banner/BannerOneSingle.js";
 const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div className={clsx("banner-area", spaceTopClass, spaceBottomClass)}>
-      <div className="container">
-        <div className="row">
-          {bannerData?.map((single, key) => (
-            <div className="col-lg-4 col-md-4" key={key}>
-              <BannerOneSingle
-                data={single}
-                spaceBottomClass="mb-30"
-              />
+       {/* Iconos */}
+       <div className="icon-info-section">
+        <div className="container padding-20-row-col">
+          <div className="row">
+            <div className="col-lg-3 col-md-6">
+              <div className="info-box">
+                <img src={process.env.PUBLIC_URL + "/assets/img/icons/free-shipping.png"} alt="Free Shipping Icon" />
+                <div className="info-text">
+                <h4>Envío Gratis</h4>
+                <p>Envío gratuito en todos los pedidos</p>
+                </div>
+              </div>
             </div>
-          ))}
+            <div className="col-lg-3 col-md-6">
+              <div className="info-box">
+                <img src={process.env.PUBLIC_URL + "/assets/img/icons/support.png"} alt="Support Icon" />
+                <div className="info-text">
+                  <h4>Asistencia 24/7</h4>
+                  <p>Asistencia  de 24/7</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="info-box">
+                <img src={process.env.PUBLIC_URL + "/assets/img/icons/money-return.png"} alt="Money Return Icon" />
+                <div className="info-text">
+                <h4>Devolución de Dinero</h4>
+                <p>30 días de devolución del dinero</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="info-box">
+                <img src={process.env.PUBLIC_URL + "/assets/img/icons/order-discount.png"} alt="Order Discount Icon" />
+                <div className="info-text">
+                <h4>Descuento en Pedidos</h4>
+                <p>En artículos seleccionados</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </div><br/><br/><br/><br/>
     </div>
   );
 };
