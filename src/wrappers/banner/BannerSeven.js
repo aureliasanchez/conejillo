@@ -19,7 +19,7 @@ const BannerSeven = ({ spaceTopClass, spaceBottomClass }) => {
         <Swiper
           modules={[Autoplay, Navigation]}
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={6}
           navigation
           autoplay={{ delay: 3000 }}
           breakpoints={{
