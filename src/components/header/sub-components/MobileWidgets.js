@@ -7,10 +7,10 @@ const MobileWidgets = () => {
       </div>
       {/*Off Canvas Widget Social Start*/}
       <div className="off-canvas-widget-social">
-      <a href="//facebook.com" title="Facebook">
+      <a href="https://www.facebook.com/ConejilloDeCampo.mx" title="Facebook">
           <i className="fa fa-facebook"></i>
         </a>
-        <a href="//instagram.com" title="Instagram">
+        <a href="https://www.instagram.com/conejillodecampo_pachuca/" title="Instagram">
           <i className="fa fa-instagram"></i>
         </a>
       </div>

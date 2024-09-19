@@ -18,10 +18,6 @@ const HomeFlowerShop = () => {
         {/* banner */}
         <BannerSix spaceTopClass="pt-100" spaceBottomClass="pb-80" />
         {/* tab product */}
-
-        {/* banner */}
-        <BannerSeven spaceTopClass="pt-95" spaceBottomClass="pb-70" />
-
       </LayoutTwo>
     </Fragment>
   );

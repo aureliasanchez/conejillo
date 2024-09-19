@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <GoogleMap lat={47.444} lng={-122.176} />
+              <GoogleMap lat={20.1011} lng={-98.7591} />
             </div>
             <div className="custom-row-2">
               <div className="col-12 col-lg-4 col-md-5">
@@ -35,23 +35,9 @@ const Contact = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
-                    </div>
-                  </div>
-                  <div className="single-contact-info">
-                    <div className="contact-icon">
-                      <i className="fa fa-globe" />
-                    </div>
-                    <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:yourname@email.com">
-                          yourname@email.com
-                        </a>
-                      </p>
-                      <p>
-                        <a href="https://yourwebsitename.com">
-                          yourwebsitename.com
+                        <a href="https://www.whatsapp.com/catalog/5215581469126/?app_absent=0">
+                        55 8146 9126
                         </a>
                       </p>
                     </div>
@@ -61,12 +47,11 @@ const Contact = () => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Pachuca</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
-                    <h3>Follow Us</h3>
+                    <h3>Síguenos</h3>
                     <ul>
                       <li>
                         <a href="//facebook.com">
@@ -74,23 +59,8 @@ const Contact = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="//pinterest.com">
-                          <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//vimeo.com">
-                          <i className="fa fa-vimeo" />
-                        </a>
-                      </li>
-                      <li>
                         <a href="//twitter.com">
-                          <i className="fa fa-twitter" />
+                          <i className="fa fa-instagram" />
                         </a>
                       </li>
                     </ul>

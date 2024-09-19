@@ -16,11 +16,6 @@ const MobileNavMenu = () => {
           </Link>
         </li>   
         <li>
-          <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-            {t("colleccion")}
-          </Link>
-        </li> 
-        <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>
             {t("contacto")}
           </Link>
