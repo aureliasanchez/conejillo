@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
-import HeaderSocial from "./sub-components/HeaderSocial";
-import NavMenu from "./NavMenu";
 
 const OffcanvasMenu = ({ activeState, getActiveState }) => {
   return (
@@ -15,19 +13,20 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
           <span className="pe-7s-close"></span>
         </button>
       </div>
+      {/* nav menu*/}
+      {/* <NavMenu sidebarMenu={true} /> */}
+
       <div className="side-logo">
-        <Link to={process.env.PUBLIC_URL + "/"}>
+        <Link to={process.env.PUBLIC_URL + "/"}> 
           <img
             alt=""
             src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
           />
         </Link>
       </div>
-      {/* nav menu*/}
-      <NavMenu sidebarMenu={true} />
 
       {/* header social */}
-      <HeaderSocial />
+      {/* <HeaderSocial /> */}
     </div>
   );
 };

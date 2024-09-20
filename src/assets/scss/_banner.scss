@@ -107,8 +107,8 @@
     }
     &.banner-pink {
       a {
-        color: #ed59a0;
-        border: 2px solid #ed59a0;
+        color: #EDF0C5;
+        border: 2px solid #EDF0C5;
         &:hover {
           color: $theme-color;
           border: 2px solid $theme-color;
@@ -300,12 +300,12 @@
       p {
         color: #010101;
         span {
-          color: #ed59a0;
+          color: #218F39;
         }
       }
       > a {
-        color: #ed59a0;
-        border: 2px solid #ed59a0;
+        color: #EDF0C5;
+        border: 2px solid #EDF0C5;
         &:hover {
           color: $theme-color;
           border: 2px solid $theme-color;
@@ -395,13 +395,13 @@
     }
     &.pink-banner {
       span {
-        color: #ed59a0;
+        color: #218F39;
       }
       h2 {
-        color: #ed59a0;
+        color: #000000;
       }
       > a {
-        background-color: #ed59a0;
+        background-color: #218F39;
         &:hover {
           background-color: $theme-color;
         }
@@ -1072,8 +1072,8 @@
 
       &--pink {
         a {
-          color: #ed59a0;
-          border-color: #ed59a0;
+          color: #EDF0C5;
+          border-color: #EDF0C5;
         }
       }
     }
@@ -1282,7 +1282,7 @@
       padding: 13px 40px 15px;
 
       color: #fff;
-      background-color: #ed59a0;
+      background-color: #218F39;
       &:hover {
         background-color: $theme-color;
       }

@@ -12,51 +12,54 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
           ? "sidebar-menu"
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`)}
     >
-      <nav>
-        <ul>
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("Inicio")}
-              
-            </Link>
-          </li>
-          <li>
-          <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-              {t("Catálogo")}
-              
-            </Link>
+      <div className="logo-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Link to={process.env.PUBLIC_URL + "/"}>
+          <img src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"} alt="Logo" />
+        </Link>
+        <nav>
+          <ul>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/"}>
+                {t("Inicio")}
+              </Link>
             </li>
-          <li>
-            <ul className="submenu">
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  {t("blog_standard")}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
-                  {t("blog_no_sidebar")}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
-                  {t("blog_right_sidebar")}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                  {t("blog_details_standard")}
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link to={process.env.PUBLIC_URL + "/contact"}>
-              {t("Contacto")}
-            </Link>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                {t("Catálogo")}
+              </Link>
+            </li>
+            <li>
+              <ul className="submenu">
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+                    {t("blog_standard")}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
+                    {t("blog_no_sidebar")}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
+                    {t("blog_right_sidebar")}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                    {t("blog_details_standard")}
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/contact"}>
+                {t("Contacto")}
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   );
 };

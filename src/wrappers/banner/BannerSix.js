@@ -20,13 +20,13 @@ const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/banner/The Choco Fly.webp"
+                    process.env.PUBLIC_URL + "/assets/img/banner/kit4.webp"
                   }
                   alt=""
                 />
               </Link>
               <div className="banner-content-4 banner-position-hm15-2 pink-banner">
-                <h2>KITS</h2>
+                <h2>Kits</h2>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                     Comprar Ahora
                 </Link>
@@ -38,15 +38,15 @@ const BannerSix = ({ spaceTopClass, spaceBottomClass }) => {
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/banner/Kit Brou_Versión 4.webp"
+                    process.env.PUBLIC_URL + "/assets/img/banner/cafegolden.png"
                   }
-                  alt=""
+                  alt="Cafe Golden"
                 />
               </Link>
-              <div className="banner-content-3 banner-position-hm15-2 pink-banner">
-                <h3>Individuales</h3>
+              <div className="banner-content-4 banner-position-hm15-2 pink-banner">
+                <h2>Individuales</h2>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  <i className="fa fa-long-arrow-right" />
+                    Comprar Ahora
                 </Link>
               </div>
             </div>
