@@ -530,7 +530,7 @@
 
     margin: 6px 0 37px;
 
-    color: #ffffff;
+    color: #010101;
     @media #{$xl-layout} {
       font-size: 60px;
       line-height: 80px;
@@ -1919,7 +1919,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid #218F39;
+        border: 1px solid #a749ff;
       }
     }
   }
