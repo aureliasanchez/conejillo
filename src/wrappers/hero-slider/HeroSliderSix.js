@@ -12,7 +12,7 @@ const params = {
   loop: true,
   speed: 1000,
   navigation: true,
-  autoHeight: false
+  autoHeight: true
 };
 
 const HeroSliderSix = () => {

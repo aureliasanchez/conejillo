@@ -65,8 +65,8 @@ const ProductGridSingle = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Añadido a la lista de deseos"
+                    : "Añadir a la lista de deseos"
                 }
                 onClick={() => dispatch(addToWishlist(product))}
               >
@@ -113,7 +113,7 @@ const ProductGridSingle = ({
               )}
             </div>
             <div className="pro-same-action pro-quickview">
-              <button title="Quick View" onClick={() => setModalShow(true)}>
+              <button title="Vista rápida" onClick={() => setModalShow(true)}>
                 <i className="pe-7s-look" />
               </button>
             </div>

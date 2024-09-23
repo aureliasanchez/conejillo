@@ -50,7 +50,7 @@ const ProductGridSingleEleven = ({
             {product.discount || product.new ? (
               <div className="product-img-badges">
                 {product.discount ? <span>-{product.discount}%</span> : ""}
-                {product.new ? <span>New</span> : ""}
+                {product.new ? <span>Nuevo</span> : ""}
               </div>
             ) : (
               ""
@@ -62,7 +62,7 @@ const ProductGridSingleEleven = ({
                   href={product.affiliateLink}
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Buy now"
+                  title="Comprar Ahora"
                 >
                   {" "}
                   <i className="fa fa-shopping-cart"></i>{" "}
@@ -84,7 +84,7 @@ const ProductGridSingleEleven = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Añadido al carrito" : "Añadir al carrito"
                   }
                 >
                   {" "}
@@ -105,8 +105,8 @@ const ProductGridSingleEleven = ({
                 disabled={compareItem !== undefined}
                 title={
                   compareItem !== undefined
-                    ? "Added to compare"
-                    : "Add to compare"
+                    ? "Añadido al carrito"
+                    : "Añadir al carrito"
                 }
                 onClick={() => dispatch(addToCompare(product))}
               >
@@ -117,8 +117,8 @@ const ProductGridSingleEleven = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Añadido"
+                    : "Añadir al carrito"
                 }
                 onClick={() => dispatch(addToWishlist(product))}
               >

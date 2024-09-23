@@ -45,7 +45,7 @@ const ProductGridSingleEight = ({
               ) : (
                 ""
               )}
-              {product.new ? <span className="purple">New</span> : ""}
+              {product.new ? <span className="purple">Nuevo</span> : ""}
             </div>
           ) : (
             ""
@@ -86,8 +86,8 @@ const ProductGridSingleEight = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Añadido a la lista de deseos"
+                    : "Añadir a la lista de deseos"
                 }
                 onClick={() => dispatch(addToWishlist(product))}
               >
@@ -121,7 +121,7 @@ const ProductGridSingleEight = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Añadido al carrito" : "Añadir al carrito"
                   }
                 >
                   <i className="pe-7s-cart"></i>
@@ -138,8 +138,8 @@ const ProductGridSingleEight = ({
                 disabled={compareItem !== undefined}
                 title={
                   compareItem !== undefined
-                    ? "Added to compare"
-                    : "Add to compare"
+                    ? "Añadido"
+                    : "Añadir al carrito"
                 }
                 onClick={() => dispatch(addToCompare(product))}
               >

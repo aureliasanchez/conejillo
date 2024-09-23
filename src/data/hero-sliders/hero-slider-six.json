@@ -10,14 +10,14 @@
     "id": 2,
     "title": "Extraído de las tierras de Tapachula Chiapas",
     "subtitle": "El café que te calma mientras te hace volar.",
-    "image": "/assets/img/slider/Mezcalma (1).webp",
+    "image": "/assets/img/slider/slideback1.png",
     "url": "/shop-grid-standard"
   },
   {
     "id": 3,
     "title": "Sabor irresitible",
     "subtitle": "Disfruta un sabor que hará cada bocado una experienca placentera.",
-    "image": "/assets/img/slider/Granola Punch.webp",
+    "image": "/assets/img/slider/slideback.png",
     "url": "/shop-grid-standard"
   }
 ]
