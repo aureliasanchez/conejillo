@@ -18,26 +18,33 @@ const BannerSeven = ({ spaceTopClass, spaceBottomClass }) => {
       <div className="container">
         <Swiper
           modules={[Autoplay, Navigation]}
-          spaceBetween={30}
+          spaceBetween={10}
           slidesPerView={6}
+          slidesPerGroup={1}
           navigation
           autoplay={{ delay: 3000 }}
+          loop={true}
+          loopFillGroupWithBlank={true}
+          lazy={true}
           breakpoints={{
             1024: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
             768: {
+              slidesPerView: 2,
+            },
+            480: {
               slidesPerView: 1,
             },
           }}
         >
           {bannerData.concat([
-            { link: "/path-to-image1", image: "/images/additional-image1.jpg", title: "Imagen Adicional 1", subtitle: "Subtítulo 1", price: "$10" },
-            { link: "/path-to-image2", image: "/images/additional-image2.jpg", title: "Imagen Adicional 2", subtitle: "Subtítulo 2", price: "$20" },
-            { link: "/path-to-image3", image: "/images/additional-image3.jpg", title: "Imagen Adicional 3", subtitle: "Subtítulo 3", price: "$30" },
-            { link: "/path-to-image1", image: "/images/additional-image1.jpg", title: "Imagen Adicional 1", subtitle: "Subtítulo 1", price: "$10" },
-            { link: "/path-to-image2", image: "/images/additional-image2.jpg", title: "Imagen Adicional 2", subtitle: "Subtítulo 2", price: "$20" },
-            { link: "/path-to-image3", image: "/images/additional-image3.jpg", title: "Imagen Adicional 3", subtitle: "Subtítulo 3", price: "$30" }
+            { image: "assets/img/banner/ejemplo 1.jpg"},
+            { image: "assets/img/banner/ejemplo 1.jpg"},
+            { image: "assets/img/banner/ejemplo 1.jpg"},
+            { image: "assets/img/banner/ejemplo 1.jpg"},
+            { image: "assets/img/banner/ejemplo 1.jpg"},
+            { image: "assets/img/banner/ejemplo 1.jpg"}
           ]).map((single, key) => (
             <SwiperSlide key={key}>
               <BannerSevenSingle

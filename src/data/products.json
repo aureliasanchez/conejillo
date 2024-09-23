@@ -13,7 +13,11 @@
     "image": [
       "/assets/img/product/conejillo/Café-Clásico.webp"],
     "stock": 10,
-    "shortDescription": "Ideal para aquellos que desean introducirse en la cultura cannábica o introducir a otros. 80 g"
+    "shortDescription": "Ideal para aquellos que desean introducirse en la cultura cannábica o introducir a otros.",
+    "weightDimensions": "80 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "2",
@@ -29,7 +33,11 @@
     "image": [
       "/assets/img/product/conejillo/Café-Espresso.webp"],
     "stock": 10,
-    "shortDescription": "Mismo efecto y concentración de THC del café clásico, con el concentrado, tesitura y densidad del espresso. 80 g"
+    "shortDescription": "Mismo efecto y concentración de THC del café clásico, con el concentrado, tesitura y densidad del espresso.",
+    "weightDimensions": "80 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
 
   {
@@ -46,7 +54,11 @@
     "image": [
       "/assets/img/product/conejillo/Café-golden.webp"],
     "stock": 10,
-    "shortDescription": "Una gran demanda de este café libre del ingrediente psicoactivo de la planta. 80 g"
+    "shortDescription": "Una gran demanda de este café libre del ingrediente psicoactivo de la planta.",
+    "weightDimensions": "80 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "4",
@@ -62,7 +74,11 @@
     "image": [
       "/assets/img/product/conejillo/Café-Edición-Especial.webp"],
     "stock": 10,
-    "shortDescription": "Edición especial para amantes de la lucha libre. Contenido: café clásico o café con CBD. 80 g"
+    "shortDescription": "Edición especial para amantes de la lucha libre. Contenido: café clásico o café con CBD.",
+    "weightDimensions": "80 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "5",
@@ -78,7 +94,11 @@
     "image": [
       "/assets/img/product/conejillo/Go to Sleep Cookie.webp"],
     "stock": 10,
-    "shortDescription": "Galleta con dosis ideal de extracto de CBD para dormir profundamente. 27 g"
+    "shortDescription": "Galleta con dosis ideal de extracto de CBD para dormir profundamente.",
+    "weightDimensions": "27 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "6",
@@ -94,7 +114,11 @@
     "image": [
       "/assets/img/product/conejillo/The Cookie Fly.webp"],
     "stock": 10,
-    "shortDescription": "Prácticamente es un buen porro. Los efectos se perciben 1 ó 2 horas después de su consumo. 27 g"
+    "shortDescription": "Prácticamente es un buen porro. Los efectos se perciben 1 ó 2 horas después de su consumo.",
+    "weightDimensions": "27 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "7",
@@ -110,7 +134,11 @@
     "image": [
       "/assets/img/product/conejillo/The Choco Fly.webp"],
     "stock": 10,
-    "shortDescription": "Prácticamente es un buen porro. Los efectos se perciben 1 ó 2 horas después de su consumo. 27 g"
+    "shortDescription": "Prácticamente es un buen porro. Los efectos se perciben 1 ó 2 horas después de su consumo.",
+    "weightDimensions": "27 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "8",
@@ -126,7 +154,11 @@
     "image": [
       "/assets/img/product/conejillo/Granola Punch.webp"],
     "stock": 10,
-    "shortDescription": "Se recomienda moderación. Para aquellos que gustan de los efectos del THC, el efecto se sentirá en 2 hrs. 27 g"
+    "shortDescription": "Se recomienda moderación. Para aquellos que gustan de los efectos del THC, el efecto se sentirá en 2 hrs.",
+    "weightDimensions": "27 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "9",
@@ -142,7 +174,11 @@
     "image": [
       "/assets/img/product/conejillo/Crema-de-Cacahuate.webp"],
     "stock": 10,
-    "shortDescription": "Sugerencia 1 cucharada. Ideal para mantenerse relajado durante el día Modo Zen. 120 g"
+    "shortDescription": "Sugerencia 1 cucharada. Ideal para mantenerse relajado durante el día Modo Zen.",
+    "weightDimensions": "120 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "10",
@@ -158,7 +194,11 @@
     "image": [
       "/assets/img/product/conejillo/Crema de Avellana.webp"],
     "stock": 10,
-    "shortDescription": "Perfecta para una dulce y armoniosa combinación. 120 g"
+    "shortDescription": "Perfecta para una dulce y armoniosa combinación.",
+    "weightDimensions": "120 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "11",
@@ -174,7 +214,11 @@
     "image": [
       "/assets/img/product/conejillo/Cajeta Cannábica.webp"],
     "stock": 10,
-    "shortDescription": "La única cajeta que seguro te pondrá a volar. 120 g"
+    "shortDescription": "La única cajeta que seguro te pondrá a volar.",
+    "weightDimensions": "120 g",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "12",
@@ -190,7 +234,11 @@
     "image": [
       "/assets/img/product/conejillo/Sidra Ámbar.webp"],
     "stock": 10,
-    "shortDescription": "Consuma con moderación. Sugerencia: 1 cda. Acción cannábica de 350 mg por botella. 60 ml"
+    "shortDescription": "Consuma con moderación. Sugerencia: 1 cda. Acción cannábica de 350 mg por botella.",
+    "weightDimensions": "60 ml",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "13",
@@ -206,7 +254,11 @@
     "image": [
       "/assets/img/product/conejillo/Salsa-Valiente.webp"],
     "stock": 10,
-    "shortDescription": "Espéctro medio. Salsita para botanear con los amigos o para la mejor noche de peli. 200 ml"
+    "shortDescription": "Espéctro medio. Salsita para botanear con los amigos o para la mejor noche de peli.",
+    "weightDimensions": "200 ml",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "14",
@@ -222,7 +274,11 @@
     "image": [
       "/assets/img/product/conejillo/Mezcalma.webp"],
     "stock": 10,
-    "shortDescription": "El mezcal que te calma mientras te hace volar. 250 ml"
+    "shortDescription": "El mezcal que te calma mientras te hace volar.",
+    "weightDimensions": "250 ml",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "15",
@@ -238,7 +294,11 @@
     "image": [
       "/assets/img/product/conejillo/Pomada Cannábica.webp"],
     "stock": 10,
-    "shortDescription": "Fórmula intensa de flor con acción cannábica a nivel cutáneo, desinflama e hidrata la piel. 50 ml"
+    "shortDescription": "Fórmula intensa de flor con acción cannábica a nivel cutáneo, desinflama e hidrata la piel.",
+    "weightDimensions": "50 ml",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "16",
@@ -254,7 +314,11 @@
     "image": [
       "/assets/img/product/conejillo/Sex Lub.webp"],
     "stock": 10,
-    "shortDescription": "Sustituto sin duda del viagra, tendrás una experiencia increíble ya sea sol@ o acompañad@."
+    "shortDescription": "Sustituto sin duda del viagra, tendrás una experiencia increíble ya sea sol@ o acompañad@.",
+    "weightDimensions": " ",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "17",
@@ -270,7 +334,11 @@
     "image": [
       "/assets/img/product/conejillo/Shampoo.webp"],
     "stock": 10,
-    "shortDescription": "El shampoo de Conejillo de Campo tiene una composición natural que brinda calma y amor propio."
+    "shortDescription": "El shampoo de Conejillo de Campo tiene una composición natural que brinda calma y amor propio.",
+    "weightDimensions": " ",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   },
   {
     "id": "18",
@@ -286,7 +354,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit+Choco+Fly.webp"],
     "stock": 10,
-    "shortDescription": "2 paquetes de galletas con chispas de chocolate activas. Peso/Dimensiones: 200 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 250 kcal por porción, 10 g de grasa, 35 g de carbohidratos, 5 g de proteína. "
+    "shortDescription": "2 paquetes de galletas con chispas de chocolate activas.",
+    "weightDimensions": "200 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "250 kcal por porción, 10 g de grasa, 35 g de carbohidratos, 5 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "19",
@@ -302,7 +374,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit The Cookie Fly.webp"],
     "stock": 10,
-    "shortDescription": "2 paquetes de galletas sabor vainilla. Peso/Dimensiones: 200 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína. "
+    "shortDescription": "2 paquetes de galletas sabor vainilla.",
+    "weightDimensions": "200 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "20",
@@ -318,7 +394,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit Go to the Sleep.webp"],
     "stock": 10,
-    "shortDescription": "Tú necesitas un sueño reparador y un descanso único. Con la composición exacta de CBD, para un sueño profundo. Peso/Dimensiones: 100 g / 10 cm x 10 cm x 2 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 230 kcal por porción, 8 g de grasa, 30 g de carbohidratos, 3 g de proteína. "
+    "shortDescription": "Tú necesitas un sueño reparador y un descanso único. Con la composición exacta de CBD, para un sueño profundo.",
+    "weightDimensions": "100 g / 10 cm x 10 cm x 2 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 3 meses.",
+    "nutritionalValue": "230 kcal por porción, 8 g de grasa, 30 g de carbohidratos, 3 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "21",
@@ -334,7 +414,11 @@
     "image": [
       "/assets/img/product/conejillo/Happy Motiquin ZIP_11zon.webp"],
     "stock": 10,
-    "shortDescription": "Set de 3 piezas: café a elegir, galleta Go To Sleep, pomada, pin y periódico oficial “The No Fake News”. Peso/Dimensiones: 400 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Set de 3 piezas: café a elegir, galleta Go To Sleep, pomada, pin y periódico oficial “The No Fake News”. ",
+    "weightDimensions": "400 g / 20 cm x 15 cm x 10 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del set",
+    "microdoseLevel": " "
   },
   {
     "id": "22",
@@ -350,7 +434,11 @@
     "image": [
       "/assets/img/product/conejillo/Happy Motiquin_11zon.webp"],
     "stock": 10,
-    "shortDescription": "Set de 6 piezas: café a elegir, galleta Choco Fly, lubricante cannábico, pomada, pin y periódico oficial. Peso/Dimensiones: 600 g / 25 cm x 20 cm x 15 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Set de 6 piezas: café a elegir, galleta Choco Fly, lubricante cannábico, pomada, pin y periódico oficial.",
+    "weightDimensions": "600 g / 25 cm x 20 cm x 15 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del set",
+    "microdoseLevel": " "
   },
   {
     "id": "23",
@@ -366,13 +454,17 @@
     "image": [
       "/assets/img/product/conejillo/Happy Tester_11zon.webp"],
     "stock": 10,
-    "shortDescription": "Los mismos productos que el Seven Tester más un lubricante. Peso/Dimensiones: 500 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Los mismos productos que el Seven Tester más un lubricante.",
+    "weightDimensions": "500 g / 20 cm x 15 cm x 10 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del set",
+    "microdoseLevel": " "
   },
   {
     "id": "24",
     "sku": "asdf146",
     "name": "KIT 2 PACK",
-    "price": 48,
+    "price": 480,
     "discount": 0,
     "new": false,
     "rating": 5,
@@ -382,7 +474,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit 2 Pack.webp"],
     "stock": 10,
-    "shortDescription": "Elige entre estas opciones o arma la tuya. Peso/Dimensiones: 300 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Elige entre estas opciones o arma la tuya.",
+    "weightDimensions": "300 g / 20 cm x 15 cm x 10 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del kit",
+    "microdoseLevel": " "
   },
   {
     "id": "25",
@@ -398,7 +494,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit 3 Fantásticos.webp"],
     "stock": 10,
-    "shortDescription": "Elige uno de estos. Peso/Dimensiones: 800 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Elige uno de estos.",
+    "weightDimensions": "800 g / 25 cm x 20 cm x 15 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "microdoseLevel": " "
   },
   {
     "id": "26",
@@ -414,7 +514,11 @@
     "image": [
       "/assets/img/product/conejillo/4to Fantástico.webp"],
     "stock": 10,
-    "shortDescription": "Elige uno de estos. Peso/Dimensiones: 800 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "Elige uno de estos.",
+    "weightDimensions": "800 g / 25 cm x 20 cm x 15 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "microdoseLevel": " "
   },
   {
     "id": "27",
@@ -430,7 +534,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit Astral Sweet.webp"],
     "stock": 10,
-    "shortDescription": "1 cajeta y 1 crema de avellanas de 120 g acompañados de The Cookie Fly. Peso/Dimensiones: 400 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del set. "
+    "shortDescription": "1 cajeta y 1 crema de avellanas de 120 g acompañados de The Cookie Fly.",
+    "weightDimensions": "400 g / 20 cm x 15 cm x 10 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del kit",
+    "microdoseLevel": " "
   },
   {
     "id": "28",
@@ -446,7 +554,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit The Cookie Fly.webp"],
     "stock": 10,
-    "shortDescription": "Perfecta para una dulce y armoniosa combinación. Peso/Dimensiones: 300 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 250 kcal por porción, 10 g de grasa, 35 g de carbohidratos, 5 g de proteína. "
+    "shortDescription": "Perfecta para una dulce y armoniosa combinación.",
+    "weightDimensions": "300 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "250 kcal por porción, 10 g de grasa, 35 g de carbohidratos, 5 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "29",
@@ -462,7 +574,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit Crack.webp"],
     "stock": 10,
-    "shortDescription": "Tus galletas con un cafecito. Elige clásico o golden. Peso/Dimensiones: 120 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína. "
+    "shortDescription": "Tus galletas con un cafecito. Elige clásico o golden.",
+    "weightDimensions": "120 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "30",
@@ -478,7 +594,11 @@
     "image": [
       "/assets/img/product/conejillo/Kit Mix Espresso.webp"],
     "stock": 10,
-    "shortDescription": "Peso/Dimensiones: 300 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína. "
+    "shortDescription": " ",
+    "weightDimensions": "300 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "240 kcal por porción, 9 g de grasa, 34 g de carbohidratos, 4 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "31",
@@ -494,7 +614,11 @@
     "image": [
       "/assets/img/product/conejillo/Mezcal & Cookies.webp"],
     "stock": 10,
-    "shortDescription": "Un kit de 100 ml de mezcal acompañado de galletas Choco Fly. Peso/Dimensiones: 350 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del kit. "
+    "shortDescription": "Un kit de 100 ml de mezcal acompañado de galletas Choco Fly. cm.",
+    "weightDimensions": "350 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del kit",
+    "microdoseLevel": " "
   },
   {
     "id": "32",
@@ -510,7 +634,11 @@
     "image": [
       "/assets/img/product/conejillo/Seven Tester.webp"],
     "stock": 10,
-    "shortDescription": "7 latas, 7 experiencias distintas: Café clásico 17g, CBD 11g, espresso 11g, crema cacahuate 40g, pomada 25g, granola 20g y 1 galleta ponedora. Peso/Dimensiones: 400 g / 20 cm x 15 cm x 10 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del kit. "
+    "shortDescription": "7 latas, 7 experiencias distintas: Café clásico 17g, CBD 11g, espresso 11g, crema cacahuate 40g, pomada 25g, granola 20g y 1 galleta ponedora.",
+    "weightDimensions": "400 g / 20 cm x 15 cm x 10 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del set",
+    "microdoseLevel": " "
   },
   {
     "id": "33",
@@ -526,7 +654,11 @@
     "image": [
       "/assets/img/product/conejillo/Sweet Trisom.webp"],
     "stock": 10,
-    "shortDescription": "Los 3 untables más deliciosos para ponerte high en presentación de 30 g cada uno. Peso/Dimensiones: 120 g / 10 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: 150 kcal por porción, 12 g de grasa, 10 g de carbohidratos, 2 g de proteína. "
+    "shortDescription": "Los 3 untables más deliciosos para ponerte high en presentación de 30 g cada uno.",
+    "weightDimensions": "120 g / 10 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "150 kcal por porción, 12 g de grasa, 10 g de carbohidratos, 2 g de proteína",
+    "microdoseLevel": " "
   },
   {
     "id": "34",
@@ -542,6 +674,70 @@
     "image": [
       "/assets/img/product/conejillo/Kit Brou.webp"],
     "stock": 10,
-    "shortDescription": "Elige entre estas opciones o arma la tuya. Peso/Dimensiones: 300 g / 15 cm x 10 cm x 5 cm. Duración y Conservación: Mantener en un lugar fresco y seco. Consumir antes de 6 meses. Valor Nutricional: Variable según el contenido del kit. "
+    "shortDescription": "Elige entre estas opciones o arma la tuya.",
+    "weightDimensions": "300 g / 15 cm x 10 cm x 5 cm",
+    "durationConservation": "Mantener en un lugar fresco y seco. Consumir antes de 6 meses.",
+    "nutritionalValue": "Variable según el contenido del kit",
+    "microdoseLevel": " "
+  },
+  {
+    "id": "35",
+    "sku": "asdf157",
+    "name": "STICKER CONEJILLO",
+    "price": 50,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["Productos Individuales"],
+    "tag": ["Productos Individuales"],
+    "image": [
+      "/assets/img/product/conejillo/sin imagen.avif"],
+    "stock": 10,
+    "shortDescription": " ",
+    "weightDimensions": " ",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
+  },
+  {
+    "id": "36",
+    "sku": "asdf158",
+    "name": "TERMO CONEJILLO",
+    "price": 125,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["Productos Individuales"],
+    "tag": ["Productos Individuales"],
+    "image": [
+      "/assets/img/product/conejillo/sin imagen.avif"],
+    "stock": 10,
+    "shortDescription": " ",
+    "weightDimensions": " ",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
+  },
+  {
+    "id": "37",
+    "sku": "asdf159",
+    "name": "SUDADERA CONEJILLO",
+    "price": 650,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["Productos Individuales"],
+    "tag": ["Productos Individuales"],
+    "image": [
+      "/assets/img/product/conejillo/sin imagen.avif"],
+    "stock": 10,
+    "shortDescription": " ",
+    "weightDimensions": " ",
+    "durationConservation": " ",
+    "nutritionalValue": " ",
+    "microdoseLevel": " "
   }
   ]

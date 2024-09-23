@@ -4,26 +4,22 @@ import { Link } from "react-router-dom";
 
 const BannerSevenSingle = ({ data, spaceBottomClass }) => {
   return (
-      <div className={clsx("single-banner", spaceBottomClass)}>
-        <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
-        </Link>
-        <div className="banner-content banner-pink">
-          <h3>{data.title}</h3>
-          <h4>
-            {data.subtitle} <span>{data.price}</span>
-          </h4>
-          <Link to={data.link}>
-            <i className="fa fa-long-arrow-right" />
-          </Link>
-        </div>
-      </div>
+    <div className={clsx("single-banner", spaceBottomClass)}>
+      <Link>
+        <img src={data.image} alt={data.title || "Banner image"} />
+      </Link>
+    </div>
   );
 };
 
 BannerSevenSingle.propTypes = {
-  data: PropTypes.shape({}),
-  spaceBottomClass: PropTypes.string
+  data: PropTypes.shape({
+    link: PropTypes.string,
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+  }).isRequired,
+  spaceBottomClass: PropTypes.string,
 };
 
 export default BannerSevenSingle;

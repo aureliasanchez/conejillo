@@ -6,6 +6,7 @@ import BannerOne from "../../wrappers/banner/BannerOne";
 import RelatedProductSlider from "../../wrappers/product/RelatedProductSlider";
 import BannerSix from "../../wrappers/banner/BannerSix";
 import BannerSeven from "../../wrappers/banner/BannerSeven";
+import CTASection from '../other/CTASection';
 
 const HomeFlowerShop = () => {
   
@@ -31,6 +32,14 @@ const HomeFlowerShop = () => {
         <BannerSix spaceTopClass="pt-100" spaceBottomClass="pb-80" 
         />
         {/* tab product */}
+
+        <BannerSeven spaceTopClass="pt-95" spaceBottomClass="pb-70" />
+
+        <CTASection
+        buttonText="Descubre Lo Mejor de Nosotros"
+        buttonLink={process.env.PUBLIC_URL + "/shop-grid-standard"}
+        spaceBottomClass="pb-80" />
+        
       </LayoutTwo>
     </Fragment>
   );

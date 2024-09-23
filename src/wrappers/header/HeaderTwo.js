@@ -31,10 +31,10 @@ const HeaderTwo = () => {
           <div className="row">
             <div className="col-lg-2 d-none d-lg-block text-center">
               {/* header logo */}
-              <Logo
+              {/* <Logo
                 imageUrl="/assets/img/logo/logo.png"
                 logoClass="logo-hm-9"
-              />
+              /> */}
             </div>
           </div>
         </div>
