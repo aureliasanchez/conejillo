@@ -85,7 +85,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                 })}
             </Swiper>
           </div>
-          <div className="product-small-image-wrapper mt-15">
+          {/* <div className="product-small-image-wrapper mt-15">
             <Swiper options={thumbnailSwiperParams}>
               {product.image &&
                 product.image.map((img, i) => {
@@ -102,7 +102,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                   );
                 })}
             </Swiper>
-          </div>
+          </div> */}
         </div>
         <div className="col-md-7 col-sm-12 col-xs-12">
           <div className="product-details-content quickview-content">
@@ -280,8 +280,8 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                     disabled={wishlistItem !== undefined}
                     title={
                       wishlistItem !== undefined
-                        ? "Added to wishlist"
-                        : "Add to wishlist"
+                        ? "Agregado a la lista de deseos"
+                        : "Agregar a la lista de deseos"
                     }
                     onClick={() => dispatch(addToWishlist(product))}
                   >
@@ -294,8 +294,8 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
                     disabled={compareItem !== undefined}
                     title={
                       compareItem !== undefined
-                        ? "Added to compare"
-                        : "Add to compare"
+                        ? "Agregado para comparar"
+                        : "Agregar para comparar"
                     }
                     onClick={() => dispatch(addToCompare(product))}
                   >

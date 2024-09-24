@@ -109,7 +109,7 @@ const FooterOne = ({
                 <ul>
                   <li>
                     <a
-                      href="//www.facebook.com"
+                      href="https://www.facebook.com/ConejilloDeCampo.mx/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -118,7 +118,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.instagram.com"
+                      href="https://www.instagram.com/conejillodecampo.mx02/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

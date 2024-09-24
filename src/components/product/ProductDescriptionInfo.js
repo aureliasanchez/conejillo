@@ -8,6 +8,9 @@ import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
 
+const currency = {
+  currencySymbol: "$"
+};
 const ProductDescriptionInfo = ({
   product,
   discountedPrice,
@@ -296,7 +299,7 @@ const ProductDescriptionInfo = ({
       <div className="pro-details-social">
         <ul>
           <li>
-            <a href="//facebook.com">
+            <a href="https://www.facebook.com/ConejilloDeCampo.mx/">
               <i className="fa fa-facebook" />
             </a>
           </li>
@@ -316,7 +319,7 @@ const ProductDescriptionInfo = ({
             </a>
           </li> */}
           <li>
-            <a href="//instagram.com">
+            <a href="https://www.instagram.com/conejillodecampo.mx02/">
               <i className="fa fa-instagram" />
             </a>
           </li>
