@@ -3,21 +3,21 @@
     "id": 1,
     "title": "Conejillo del Campo",
     "subtitle": "La cultura cannábica, no se lee se prueba",
-    "image": "/assets/img/slider/slideback.png",
+    "image": "/assets/img/slider/slidertaza.png",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Extraído de las tierras de Tapachula Chiapas",
     "subtitle": "El café que te calma mientras te hace volar.",
-    "image": "/assets/img/slider/slideback1.png",
+    "image": "/assets/img/slider/sliderpack.png",
     "url": "/shop-grid-standard"
   },
   {
     "id": 3,
     "title": "Sabor irresitible",
     "subtitle": "Disfruta un sabor que hará cada bocado una experienca placentera.",
-    "image": "/assets/img/slider/slideback.png",
+    "image": "/assets/img/slider/slider3.png",
     "url": "/shop-grid-standard"
   }
 ]
