@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/conejillo/static/css/main.0a345365.css",
-    "main.js": "/conejillo/static/js/main.cda2f026.js",
+    "main.js": "/conejillo/static/js/main.aa063c75.js",
     "static/js/686.1faa0a34.chunk.js": "/conejillo/static/js/686.1faa0a34.chunk.js",
-    "static/js/3870.fc1335f0.chunk.js": "/conejillo/static/js/3870.fc1335f0.chunk.js",
+    "static/js/3870.e83984cd.chunk.js": "/conejillo/static/js/3870.e83984cd.chunk.js",
     "static/js/2371.64e743e3.chunk.js": "/conejillo/static/js/2371.64e743e3.chunk.js",
     "static/js/7319.25c9086c.chunk.js": "/conejillo/static/js/7319.25c9086c.chunk.js",
     "static/js/6077.5abf35d2.chunk.js": "/conejillo/static/js/6077.5abf35d2.chunk.js",
@@ -25,7 +25,7 @@
     "static/js/758.5411878d.chunk.js": "/conejillo/static/js/758.5411878d.chunk.js",
     "static/js/1325.a8a0be22.chunk.js": "/conejillo/static/js/1325.a8a0be22.chunk.js",
     "static/js/8435.8f631b17.chunk.js": "/conejillo/static/js/8435.8f631b17.chunk.js",
-    "static/js/3523.dd0e723a.chunk.js": "/conejillo/static/js/3523.dd0e723a.chunk.js",
+    "static/js/3523.d558ea2b.chunk.js": "/conejillo/static/js/3523.d558ea2b.chunk.js",
     "static/js/8109.e90d200f.chunk.js": "/conejillo/static/js/8109.e90d200f.chunk.js",
     "static/js/3456.53a92a13.chunk.js": "/conejillo/static/js/3456.53a92a13.chunk.js",
     "static/js/9444.9f6ceaf7.chunk.js": "/conejillo/static/js/9444.9f6ceaf7.chunk.js",
@@ -59,7 +59,7 @@
     "static/js/1270.344e6c0a.chunk.js": "/conejillo/static/js/1270.344e6c0a.chunk.js",
     "static/js/6040.c01671fd.chunk.js": "/conejillo/static/js/6040.c01671fd.chunk.js",
     "static/js/777.b900d90a.chunk.js": "/conejillo/static/js/777.b900d90a.chunk.js",
-    "static/js/3496.ff4eaca0.chunk.js": "/conejillo/static/js/3496.ff4eaca0.chunk.js",
+    "static/js/3496.cfc41c44.chunk.js": "/conejillo/static/js/3496.cfc41c44.chunk.js",
     "static/js/441.809d3542.chunk.js": "/conejillo/static/js/441.809d3542.chunk.js",
     "static/js/9663.fb06978b.chunk.js": "/conejillo/static/js/9663.fb06978b.chunk.js",
     "static/js/3882.cda6f01c.chunk.js": "/conejillo/static/js/3882.cda6f01c.chunk.js",
@@ -102,9 +102,9 @@
     "index.html": "/conejillo/index.html",
     "static/media/getFetch.cjs": "/conejillo/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.0a345365.css.map": "/conejillo/static/css/main.0a345365.css.map",
-    "main.cda2f026.js.map": "/conejillo/static/js/main.cda2f026.js.map",
+    "main.aa063c75.js.map": "/conejillo/static/js/main.aa063c75.js.map",
     "686.1faa0a34.chunk.js.map": "/conejillo/static/js/686.1faa0a34.chunk.js.map",
-    "3870.fc1335f0.chunk.js.map": "/conejillo/static/js/3870.fc1335f0.chunk.js.map",
+    "3870.e83984cd.chunk.js.map": "/conejillo/static/js/3870.e83984cd.chunk.js.map",
     "2371.64e743e3.chunk.js.map": "/conejillo/static/js/2371.64e743e3.chunk.js.map",
     "7319.25c9086c.chunk.js.map": "/conejillo/static/js/7319.25c9086c.chunk.js.map",
     "6077.5abf35d2.chunk.js.map": "/conejillo/static/js/6077.5abf35d2.chunk.js.map",
@@ -126,7 +126,7 @@
     "758.5411878d.chunk.js.map": "/conejillo/static/js/758.5411878d.chunk.js.map",
     "1325.a8a0be22.chunk.js.map": "/conejillo/static/js/1325.a8a0be22.chunk.js.map",
     "8435.8f631b17.chunk.js.map": "/conejillo/static/js/8435.8f631b17.chunk.js.map",
-    "3523.dd0e723a.chunk.js.map": "/conejillo/static/js/3523.dd0e723a.chunk.js.map",
+    "3523.d558ea2b.chunk.js.map": "/conejillo/static/js/3523.d558ea2b.chunk.js.map",
     "8109.e90d200f.chunk.js.map": "/conejillo/static/js/8109.e90d200f.chunk.js.map",
     "3456.53a92a13.chunk.js.map": "/conejillo/static/js/3456.53a92a13.chunk.js.map",
     "9444.9f6ceaf7.chunk.js.map": "/conejillo/static/js/9444.9f6ceaf7.chunk.js.map",
@@ -160,7 +160,7 @@
     "1270.344e6c0a.chunk.js.map": "/conejillo/static/js/1270.344e6c0a.chunk.js.map",
     "6040.c01671fd.chunk.js.map": "/conejillo/static/js/6040.c01671fd.chunk.js.map",
     "777.b900d90a.chunk.js.map": "/conejillo/static/js/777.b900d90a.chunk.js.map",
-    "3496.ff4eaca0.chunk.js.map": "/conejillo/static/js/3496.ff4eaca0.chunk.js.map",
+    "3496.cfc41c44.chunk.js.map": "/conejillo/static/js/3496.cfc41c44.chunk.js.map",
     "441.809d3542.chunk.js.map": "/conejillo/static/js/441.809d3542.chunk.js.map",
     "9663.fb06978b.chunk.js.map": "/conejillo/static/js/9663.fb06978b.chunk.js.map",
     "3882.cda6f01c.chunk.js.map": "/conejillo/static/js/3882.cda6f01c.chunk.js.map",
@@ -194,6 +194,6 @@
   },
   "entrypoints": [
     "static/css/main.0a345365.css",
-    "static/js/main.cda2f026.js"
+    "static/js/main.aa063c75.js"
   ]
 }
