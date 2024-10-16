@@ -1,5 +1,7 @@
 /*---- 18. Shop page  -------*/
-
+body{
+  font-family: 'Inter, Monserrat, Poppins'; 
+}
 .shop-top-bar {
   display: flex;
   align-items: center;
@@ -32,6 +34,7 @@
     }
     p {
       margin: 0;
+      font-family: 'Inter, Monserrat, Poppins'; 
 
       color: #606060;
       @media #{$xs-layout} {

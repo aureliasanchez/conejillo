@@ -1,4 +1,4 @@
-import { EffectFade } from 'swiper';
+import { EffectFade, Autoplay } from 'swiper'; 
 import Swiper, { SwiperSlide } from "../../components/swiper";
 import sliderData from "../../data/hero-sliders/hero-slider-six.json";
 import HeroSliderSixSingle from "../../components/hero-slider/HeroSliderSixSingle.js";
@@ -8,11 +8,15 @@ const params = {
   fadeEffect: {
     crossFade: true
   },
-  modules: [EffectFade],
+  modules: [EffectFade, Autoplay], 
   loop: true,
   speed: 1000,
   navigation: true,
-  autoHeight: true
+  autoHeight: true,
+  autoplay: { 
+    delay: 4000, 
+    disableOnInteraction: false, 
+  }
 };
 
 const HeroSliderSix = () => {

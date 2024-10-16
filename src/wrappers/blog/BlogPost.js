@@ -5,50 +5,28 @@ const BlogPost = () => {
   return (
     <Fragment>
       <div className="blog-details-top">
-        <div className="blog-details-img">
-          <img
-            alt=""
-            src={process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"}
-          />
-        </div>
         <div className="blog-details-content">
           <div className="blog-meta-2">
             <ul>
-              <li>22 April, 2018</li>
-              <li>
+              <li>15 Octubre, 2024</li>
+              {/* <li>
                 <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
                   4 <i className="fa fa-comments-o" />
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
-          <h3>14 Emerging Fashion Influencers Who Are Going to Own 2018</h3>
+          <h3>¿Por qué elegir Choco Fly?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprhendit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qei
-            officia deser mollit anim id est laborum. Sed ut perspiciatis unde
-            omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam.{" "}
+          🌿 Relajación Inmediata: Cada galleta está diseñada para ayudarte a desconectar y relajarte al instante.<br></br>
+          🍫 Sabor Irresistible: Disfruta de un sabor delicioso que hará que cada bocado sea una experiencia placentera.<br></br>
+          🛌 Alivio del Estrés: Perfectas para esos días en los que necesitas un respiro y liberar tensiones.<br></br>
+          🌠 Experiencia Única: Te transportarán a Júpiter y más allá, permitiéndote explorar nuevos horizontes y disfrutar de un viaje inolvidable.<br></br>
+            Estas galletas son el acompañante perfecto para aquellos que buscan una experiencia única y astral. <br></br>Cada bocado te llevará a un nuevo nivel de bienestar y placer.{" "}
           </p>
-          <blockquote>
-            Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do
-            eiusmod tempor incididunt labo dolor magna aliqua. Ut enim ad minim
-            veniam quis nostrud.
-          </blockquote>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehendrit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
+        
         </div>
-      </div>
+        </div>
       <div className="dec-img-wrapper">
         <div className="row">
           <div className="col-md-6">
@@ -72,16 +50,70 @@ const BlogPost = () => {
             </div>
           </div>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendrit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        </div>
+        <div className="blog-details-content">
+          <div className="blog-meta-2">
+            <ul>
+              <li>16 Octubre, 2024</li>
+              {/* <li>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                  4 <i className="fa fa-comments-o" />
+                </Link>
+              </li> */}
+            </ul>
+          </div>
+          <h3>Conóce Nuestros Cafés</h3>
+          <p>
+          Nuestra locochona e innovadora fusión con la plantita mágica, te sorprenderá con todos sus beneficios.<br></br><br></br>
+
+Comenzando por el de la izquierda, tenemos el ✨Espresso✨, perfecto para los amantes de las intensidades. Su hermosa bolsa verde metálico lo hace irresistible. Además, su fusión con la plantita mágica te brinda una experiencia única, ayudándote a relajarte, conciliar el sueño y aliviar dolores musculares.<br></br><br></br>
+
+Continuamos con el ✨Golden cafe✨, libre de estimulantes psicoactivos. Disfruta de todos los beneficios de la cafeína con un sabor delicioso y único, mientras la plantita mágica te brinda un efecto calmante y analgésico, ideal para aquellos que buscan aliviar dolores crónicos.<br></br><br></br>
+
+Por último, pero no menos importante, presentamos nuestro pionero en la línea de productos Conejillo de campo, ✨El Café Clásico✨. Con la dosis perfecta de fusión con el cannabis, este café te mantendrá enfocado y creativo. Además, la plantita mágica te ayuda a mejorar la calidad del sueño y a aliviar dolores de forma natural.<br></br><br></br>
+
+Descubre los sorprendentes beneficios que te esperan en cada taza. Desde el primer momento en que lo pruebes, sentirás ese toque mágico que hace de esta experiencia algo único. 😉{" "}
+          </p>
+          </div>
+        
+        <div className="dec-img-wrapper">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="dec-img mb-50">
+              <img
+                alt=""
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"
+                }
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="dec-img mb-50">
+              <img
+                alt=""
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/blog/blog-6.jpg"
+                }
+              />
+            </div>
+          </div>
+        </div>
+        </div>
+        <div className="blog-details-content">
+          <div className="blog-meta-2">
+            {/*<ul>
+              <li>16 Octubre, 2024</li>
+               <li>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                  4 <i className="fa fa-comments-o" />
+                </Link>
+              </li> 
+            </ul>*/}
+          </div>
       </div>
       <div className="tag-share">
-        <div className="dec-tag">
+        {/* <div className="dec-tag">
           <ul>
             <li>
               <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
@@ -99,23 +131,18 @@ const BlogPost = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="blog-share">
-          <span>share :</span>
+          <span>Síguenos:</span>
           <div className="share-social">
             <ul>
               <li>
-                <a className="facebook" href="//facebook.com">
+                <a className="facebook" href="https://www.facebook.com/ConejilloDeCampo.mx/">
                   <i className="fa fa-facebook" />
                 </a>
               </li>
               <li>
-                <a className="twitter" href="//twitter.com">
-                  <i className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a className="instagram" href="//instagram.com">
+                <a className="instagram" href="https://www.instagram.com/conejillodecampo/">
                   <i className="fa fa-instagram" />
                 </a>
               </li>
@@ -126,10 +153,10 @@ const BlogPost = () => {
       <div className="next-previous-post">
         <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
           {" "}
-          <i className="fa fa-angle-left" /> prev post
+          <i className="fa fa-angle-left" /> Anterior Post
         </Link>
         <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-          next post <i className="fa fa-angle-right" />
+          Siguiente Post <i className="fa fa-angle-right" />
         </Link>
       </div>
     </Fragment>

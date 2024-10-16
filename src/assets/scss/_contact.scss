@@ -1,5 +1,7 @@
 /*------ 22. contact Page  ------*/
-
+body {
+  font-family: 'Inter, Monserrat, Poppins'; 
+}
 .contact-map {
   position: relative;
 
@@ -50,12 +52,14 @@
     }
     .contact-info-dec {
       p {
+        font-family: 'Inter, Monserrat, Poppins';
         line-height: 1;
 
         margin: 0 0 9px;
 
         color: #404040;
         a {
+          font-family: 'Inter, Monserrat, Poppins';
           color: #404040;
           &:hover {
             color: $theme-color;
@@ -77,6 +81,7 @@
   margin-top: 58px;
   h3 {
     font-size: 24px;
+    font-family: 'Inter, Monserrat, Poppins';
     font-weight: 500;
     line-height: 1;
 
@@ -90,6 +95,7 @@
 
       margin: 0 10px;
       a {
+        font-family: 'Inter, Monserrat, Poppins';
         font-size: 16px;
 
         color: #4d4d4d;
@@ -117,6 +123,7 @@
   .contact-title {
     h2 {
       font-size: 24px;
+      font-family: 'Inter, Monserrat, Poppins';
       font-weight: 500;
       line-height: 1;
 

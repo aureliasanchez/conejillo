@@ -1,5 +1,7 @@
 /*-------- 8. Footer style  -----*/
-
+body {
+  font-family: 'Inter, Monserrat, Poppins'; 
+}
 .copyright {
   .footer-logo {
     margin-top: 41px;
@@ -16,9 +18,11 @@
   }
   p {
     letter-spacing: 0.9px;
+    font-family: 'Inter, Monserrat, Poppins'; 
 
     color: #313131;
     a {
+      font-family: 'Inter, Monserrat, Poppins'; 
       color: #313131;
       &:hover {
         color: $theme-color;
@@ -27,8 +31,10 @@
   }
   &.copyright-white {
     p {
+      font-family: 'Inter, Monserrat, Poppins'; 
       color: #fff;
       a {
+        font-family: 'Inter, Monserrat, Poppins'; 
         color: #fff;
         &:hover {
           color: $theme-color;
@@ -43,6 +49,7 @@
     h3 {
       font-size: 16px;
       font-weight: 500;
+      font-family: 'Inter, Monserrat, Poppins'; 
       line-height: 1;
 
       margin: 0 0 16px;
@@ -58,6 +65,7 @@
           margin: 0 0 0;
         }
         a {
+          font-family: 'Inter, Monserrat, Poppins'; 
           letter-spacing: 0.3px;
 
           color: #5d5d5d;
@@ -70,6 +78,7 @@
   }
   .subscribe-style {
     p {
+      font-family: 'Inter, Monserrat, Poppins'; 
       margin: 0 0 20px;
 
       color: #7a7a7a;
@@ -77,6 +86,7 @@
     .subscribe-form {
       input {
         font-size: 13px;
+        font-family: 'Inter, Monserrat, Poppins'; 
 
         padding: 2px 10px 2px 0;
 
@@ -91,6 +101,7 @@
       .clear {
         button {
           font-size: 14px;
+          font-family: 'Inter, Monserrat, Poppins'; 
           line-height: 1;
 
           width: auto;
@@ -114,10 +125,12 @@
     &.subscribe-style-white {
       p {
         color: #e6e6e6;
+        font-family: 'Inter, Monserrat, Poppins'; 
       }
       .subscribe-form {
         input {
           color: #a4a4a4;
+          font-family: 'Inter, Monserrat, Poppins'; 
           border-bottom: 2px solid #ebebeb;
         }
         .clear {
@@ -202,6 +215,7 @@
   &.footer-widget-white {
     .footer-title {
       h3 {
+        font-family: 'Inter, Monserrat, Poppins'; 
         color: #fff;
       }
     }
@@ -209,6 +223,7 @@
       ul {
         li {
           a {
+            font-family: 'Inter, Monserrat, Poppins'; 
             color: #e6e6e6;
             &:hover {
               color: $theme-color;
@@ -315,6 +330,7 @@
   position: relative;
   z-index: 9;
   p {
+    font-family: 'Inter, Monserrat, Poppins'; 
     line-height: 28px;
 
     width: 55%;
@@ -391,6 +407,7 @@
 
   border-top: 1px solid #ccc;
   p {
+    font-family: 'Inter, Monserrat, Poppins'; 
     line-height: 1;
 
     color: #fff;
@@ -406,6 +423,7 @@
   }
   &.copyright-gray {
     p {
+      font-family: 'Inter, Monserrat, Poppins'; 
       color: #848484;
       a {
         letter-spacing: 0.9px;

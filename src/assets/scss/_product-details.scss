@@ -1,5 +1,7 @@
 /*----- 19. Product details page  ---*/
-
+body{
+  font-family: 'Inter, Monserrat, Poppins'; 
+}
 .product-details-img {
   @media #{$lg-layout} {
     &.mr-20 {
@@ -491,6 +493,7 @@
 .sidebar-active {
   @media #{$xs-layout} {
     & .product-details-content {
+      font-family: 'Inter, Monserrat, Poppins'; 
       margin-top: 0;
     }
   }

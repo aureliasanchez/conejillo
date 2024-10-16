@@ -4,7 +4,7 @@
   position: relative;
 
   overflow: hidden;
-  a {
+  a {font-family: 'Inter, Monserrat, Poppins';
     img {
       width: 100%;
 
@@ -19,6 +19,7 @@
     position: absolute;
     top: 40px;
     left: 36px;
+    font-family: 'Inter, Monserrat, Poppins';
 
     content: "";
     @media #{$lg-layout} {
@@ -36,7 +37,7 @@
       transform: translateY(-50%);
     }
     h3 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Inter, Monserrat, Poppins';
       font-size: 36px;
       font-weight: 600;
 
@@ -51,7 +52,7 @@
       }
     }
     h4 {
-      font-family: "Cormorant Garamond";
+      font-family: 'Inter, Monserrat, Poppins';
       font-size: 18px;
       font-weight: 600;
 
@@ -72,6 +73,7 @@
       }
       span {
         font-size: 20px;
+        font-family: 'Inter, Monserrat, Poppins';
         line-height: 1;
 
         position: relative;
@@ -86,6 +88,7 @@
     }
     a {
       font-size: 14px;
+      font-family: 'Inter, Monserrat, Poppins';
 
       display: inline-block;
 
@@ -236,6 +239,7 @@
     h3 {
       font-size: 30px;
       font-weight: bold;
+      font-family: 'Inter, Monserrat, Poppins';
       line-height: 1;
 
       margin: 0;
@@ -258,6 +262,7 @@
     }
     p {
       font-size: 18px;
+      font-family: 'Inter, Monserrat, Poppins';
 
       margin: 11px 0 20px;
 
@@ -280,6 +285,7 @@
     }
     > a {
       font-size: 14px;
+      font-family: 'Inter, Monserrat, Poppins';
 
       display: inline-block;
 
@@ -316,12 +322,14 @@
   .banner-content-4 {
     span {
       font-size: 18px;
+      font-family: 'Inter, Monserrat, Poppins';
 
       color: #6eab49;
     }
     h2 {
       font-size: 55px;
       font-weight: bold;
+      font-family: 'Inter, Monserrat, Poppins';
       line-height: 1;
 
       margin: 15px 0 15px;
@@ -350,6 +358,7 @@
     }
     h5 {
       font-size: 24px;
+      font-family: 'Inter, Monserrat, Poppins';
       line-height: 1;
 
       margin: 0 0 36px;
@@ -379,6 +388,7 @@
     }
     > a {
       font-size: 14px;
+      font-family: 'Inter, Monserrat, Poppins';
       line-height: 1;
 
       display: inline-block;
@@ -1445,17 +1455,19 @@
 }
 
 .info-box img {
-  max-width: 60px;
-  margin-bottom: 15px;
+  max-width: 150px;
+  margin-bottom: 10px;
 }
 
 .info-text h4 {
   font-size: 18px;
+  font-family: 'Inter, Monserrat, Poppins'; 
   font-weight: bold;
   color: #333;
 }
 
 .info-text p {
   font-size: 14px;
+  font-family: 'Inter, Monserrat, Poppins'; 
   color: #666;
 }

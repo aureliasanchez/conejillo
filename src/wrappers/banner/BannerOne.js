@@ -12,7 +12,7 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="info-box">
-                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/casita.webp"} alt="Envio Gratis Icon" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/casita.png"} alt="Envio Gratis Icon" />
                 <div className="info-text">
                 <h4>Envío Seguro</h4>
                 <p>Envío gratuito en todos los pedidos</p>
@@ -21,7 +21,7 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="info-box">
-                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/247.webp"} alt="Support Icon" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/247.png"} alt="Support Icon" />
                 <div className="info-text">
                   <h4>Asistencia 24/7</h4>
                   <p>Asistencia  de 24/7</p>
@@ -30,7 +30,7 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="info-box">
-                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/dinero.webp"} alt="Money Return Icon" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/dinero.png"} alt="Money Return Icon" />
                 <div className="info-text">
                 <h4>Devolución de Dinero</h4>
                 <p>30 días de devolución del dinero</p>
@@ -39,7 +39,7 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="info-box">
-                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/natural.webp"} alt="Productos Naturales" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/icon-img/natural.png"} alt="Productos Naturales" />
                 <div className="info-text">
                 <h4>Productos Naturales</h4>
                 <p>100% Naturales</p>

@@ -4,12 +4,14 @@
   h5 {
     font-weight: 500;
     font-size: 16px;
+    font-family: 'Inter, Monserrat, Poppins';
     color: #666;
     margin: 0;
     letter-spacing: 0.3px;
   }
   h1 {
     font-size: 30px;
+    font-family: 'Inter, Monserrat, Poppins';
     font-weight: 500;
     letter-spacing: 0.3px;
     margin: 8px 0 30px;
@@ -32,6 +34,7 @@
   }
   p {
     font-size: 16px;
+    font-family: 'Inter, Monserrat, Poppins';
     color: #4b4b4b;
     line-height: 30px;
     width: 66%;
@@ -45,6 +48,7 @@
     @media #{$xs-layout} {
       width: 100%;
       font-size: 15px;
+      font-family: 'Inter, Monserrat, Poppins';
     }
   }
 }
@@ -55,6 +59,7 @@
   .count-icon {
     i {
       font-size: 50px;
+      font-family: 'Inter, Monserrat, Poppins';
       line-height: 1;
       display: inline-block;
       @media #{$md-layout} {
@@ -69,6 +74,7 @@
     & > span {
       color: $theme-color;
       font-size: 40px;
+      font-family: 'Inter, Monserrat, Poppins';
       font-weight: bold;
       margin: 25px 0 12px;
       display: inline-block;
@@ -85,6 +91,7 @@
   span {
     color: #333;
     font-size: 20px;
+    font-family: 'Inter, Monserrat, Poppins';
     text-transform: capitalize;
     font-weight: 500;
   }
@@ -117,6 +124,7 @@
         color: #fff;
         display: inline-block;
         font-size: 14px;
+        font-family: 'Inter, Monserrat, Poppins';
         height: 30px;
         line-height: 28px;
         text-align: center;
@@ -154,11 +162,13 @@
     h4 {
       font-size: 18px;
       font-weight: 500;
+      font-family: 'Inter, Monserrat, Poppins';
       margin: 0 0 3px;
       text-transform: capitalize;
     }
     span {
       font-size: 15px;
+      font-family: 'Inter, Monserrat, Poppins';
       font-style: italic;
     }
   }
@@ -172,6 +182,7 @@
   h3 {
     font-size: 25px;
     font-weight: 500;
+    font-family: 'Inter, Monserrat, Poppins';
     margin: 0 0 20px;
     text-transform: capitalize;
     line-height: 22px;

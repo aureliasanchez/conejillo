@@ -1,13 +1,17 @@
 /*------- 5. Section title style  -------*/
-
+body{
+  font-family: 'Inter, Monserrat, Poppins'; 
+}
 .section-title {
   @media #{$xs-layout} {
     &.mb-50 {
       margin-bottom: 30px;
+      font-family: 'Inter, Monserrat, Poppins'; 
     }
   }
   h2 {
     font-size: 30px;
+    font-family: 'Inter, Monserrat, Poppins'; 
     font-weight: 600;
 
     position: relative;
