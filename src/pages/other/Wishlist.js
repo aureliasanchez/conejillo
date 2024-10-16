@@ -20,33 +20,33 @@ const Wishlist = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Wishlist"
+        titleTemplate="Lista de deseos"
         description="Wishlist page of flone react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Wishlist", path: process.env.PUBLIC_URL + pathname }
+            {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+            {label: "Lista de deseos", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
         <div className="cart-main-area pt-90 pb-100">
           <div className="container">
             {wishlistItems && wishlistItems.length >= 1 ? (
               <Fragment>
-                <h3 className="cart-page-title">Your wishlist items</h3>
+                <h3 className="cart-page-title">Tus artículos de la lista de deseos</h3>
                 <div className="row">
                   <div className="col-12">
                     <div className="table-content table-responsive cart-table-content">
                       <table>
                         <thead>
                           <tr>
-                            <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Unit Price</th>
-                            <th>Add To Cart</th>
-                            <th>action</th>
+                            <th>Imágen</th>
+                            <th>Producto</th>
+                            <th>Precio unitario</th>
+                            <th>Añadir al carrito</th>
+                            <th>Accion</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -152,18 +152,18 @@ const Wishlist = () => {
                                       }
                                       title={
                                         wishlistItem !== undefined
-                                          ? "Added to cart"
-                                          : "Add to cart"
+                                          ? "Añadido al carrito"
+                                          : "Añadir al carrito"
                                       }
                                     >
                                       {cartItem !== undefined &&
                                       cartItem.quantity > 0
-                                        ? "Added"
-                                        : "Add to cart"}
+                                        ? "Añadido al carrito"
+                                        : "Añadir al carrito"}
                                     </button>
                                   ) : (
                                     <button disabled className="active">
-                                      Out of stock
+                                      Agotado
                                     </button>
                                   )}
                                 </td>
@@ -193,12 +193,12 @@ const Wishlist = () => {
                         <Link
                           to={process.env.PUBLIC_URL + "/shop-grid-standard"}
                         >
-                          Continue Shopping
+                          Continuar comprando
                         </Link>
                       </div>
                       <div className="cart-clear">
                         <button onClick={() => dispatch(deleteAllFromWishlist())}>
-                          Clear Wishlist
+                        Borrar de la lista de deseos
                         </button>
                       </div>
                     </div>
@@ -213,9 +213,9 @@ const Wishlist = () => {
                       <i className="pe-7s-like"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in wishlist <br />{" "}
+                    No se encontraron artículos en la lista de deseos<br />{" "}
                       <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Add Items
+                      Agregar artículos
                       </Link>
                     </div>
                   </div>
