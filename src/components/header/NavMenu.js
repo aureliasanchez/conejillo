@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import { useSelector } from "react-redux"; // Para obtener el estado del carrito
+import IconGroup from "../../components/header/IconGroup";
 
 const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
   const { t } = useTranslation();
@@ -42,22 +43,10 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 {t("Blog")}
               </Link>
             </li>
-
-            {/* Ícono del carrito */}
-            <li className="cart-icon">
-              <Link to={process.env.PUBLIC_URL + "/cart"}>
-                <i className="fa fa-shopping-cart" /> {/* Icono del carrito */}
-                {cartItems.length > 0 && (
-                  <span className="cart-count">{cartItems.length}</span> // Mostrar cantidad de artículos en el carrito
-                )}
-              </Link>
-            </li>
-
             <li>
-              <Link to={process.env.PUBLIC_URL + "/wishlist"}>
-                {t("Favoritos")}
-              </Link>
-            </li>
+            {/* Icon group */}
+              <IconGroup />
+              </li>
           </ul>
         </nav>
       </div>

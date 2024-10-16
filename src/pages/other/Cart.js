@@ -21,7 +21,7 @@ const Cart = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Cart"
+        titleTemplate="Carrito"
         description="Cart page of flone react minimalist eCommerce template."
       />
 
@@ -29,8 +29,8 @@ const Cart = () => {
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Cart", path: process.env.PUBLIC_URL + pathname }
+            {label: "Inicio", path: process.env.PUBLIC_URL + "/" },
+            {label: "Carrito", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
         <div className="cart-main-area pt-90 pb-100">
@@ -44,12 +44,12 @@ const Cart = () => {
                       <table>
                         <thead>
                           <tr>
-                            <th>Image</th>
-                            <th>Product Name</th>
-                            <th>Unit Price</th>
-                            <th>Qty</th>
+                            <th>Imágen</th>
+                            <th>Producto</th>
+                            <th>Precio Unitario</th>
+                            <th>Cantidad</th>
                             <th>Subtotal</th>
-                            <th>action</th>
+                            <th>Accion</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -211,12 +211,12 @@ const Cart = () => {
                         <Link
                           to={process.env.PUBLIC_URL + "/shop-grid-standard"}
                         >
-                          Continue Shopping
+                          Continuar comprando
                         </Link>
                       </div>
                       <div className="cart-clear">
                         <button onClick={() => dispatch(deleteAllFromCart())}>
-                          Clear Shopping Cart
+                        Borrar carrito de compras
                         </button>
                       </div>
                     </div>
@@ -228,40 +228,39 @@ const Cart = () => {
                     <div className="cart-tax">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gray">
-                          Estimate Shipping And Tax
+                        Estimar envío e impuestos
                         </h4>
                       </div>
                       <div className="tax-wrapper">
                         <p>
-                          Enter your destination to get a shipping estimate.
+                        Ingrese su destino para obtener una estimación de envío.
                         </p>
                         <div className="tax-select-wrapper">
                           <div className="tax-select">
-                            <label>* Country</label>
+                            <label>* País</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
+                              <option>México</option>
+                              <option>Estados Unidos</option>
+                              <option>Canada</option>
+                              <option>Colombia</option>
                             </select>
                           </div>
                           <div className="tax-select">
-                            <label>* Region / State</label>
+                            <label>* Región / Estado</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
+                              <option>Hidalgo</option>
+                              <option>CDMX</option>
+                              <option>Guerrero</option>
+                              <option>Tlaxcala</option>
+                              <option>Veracruz</option>
                             </select>
                           </div>
                           <div className="tax-select">
-                            <label>* Zip/Postal Code</label>
+                            <label>* Código Postal</label>
                             <input type="text" />
                           </div>
                           <button className="cart-btn-2" type="submit">
-                            Get A Quote
+                          Obtenga una cotización
                           </button>
                         </div>
                       </div>
@@ -272,15 +271,15 @@ const Cart = () => {
                     <div className="discount-code-wrapper">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gray">
-                          Use Coupon Code
+                        Usar código de cupón
                         </h4>
                       </div>
                       <div className="discount-code">
-                        <p>Enter your coupon code if you have one.</p>
+                        <p>Ingrese su código de cupón si tiene uno.</p>
                         <form>
                           <input type="text" required name="name" />
                           <button className="cart-btn-2" type="submit">
-                            Apply Coupon
+                          Aplicar cupón
                           </button>
                         </form>
                       </div>
@@ -291,24 +290,24 @@ const Cart = () => {
                     <div className="grand-totall">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gary-cart">
-                          Cart Total
+                        Total del carrito
                         </h4>
                       </div>
                       <h5>
-                        Total products{" "}
+                      Productos totales{" "}
                         <span>
                           {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h5>
 
                       <h4 className="grand-totall-title">
-                        Grand Total{" "}
+                      Gran total{" "}
                         <span>
                           {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h4>
                       <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                        Proceed to Checkout
+                        Proceder pago
                       </Link>
                     </div>
                   </div>
@@ -322,9 +321,9 @@ const Cart = () => {
                       <i className="pe-7s-cart"></i>
                     </div>
                     <div className="item-empty-area__text">
-                      No items found in cart <br />{" "}
+                    No se encontraron artículos en el carrito <br />{" "}
                       <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                        Shop Now
+                      Comprar ahora
                       </Link>
                     </div>
                   </div>

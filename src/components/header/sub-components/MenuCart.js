@@ -51,7 +51,7 @@ const MenuCart = () => {
                         {item.name}{" "}
                       </Link>
                     </h4>
-                    <h6>Qty: {item.quantity}</h6>
+                    <h6>Cantidad: {item.quantity}</h6>
                     <span>
                       {discountedPrice !== null
                         ? currency.currencySymbol + finalDiscountedPrice
@@ -86,18 +86,18 @@ const MenuCart = () => {
           </div>
           <div className="shopping-cart-btn btn-hover text-center">
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
-              view cart
+            Ver carrito
             </Link>
             <Link
               className="default-btn"
               to={process.env.PUBLIC_URL + "/checkout"}
             >
-              checkout
+              Línea de pago
             </Link>
           </div>
         </Fragment>
       ) : (
-        <p className="text-center">No items added to cart</p>
+        <p className="text-center">No se agregaron artículos al carrito</p>
       )}
     </div>
   );
